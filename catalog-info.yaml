@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ping_sample
+  description: just a ping
+  annotations: 
+    github.com/project-slug: sciriellipmp/golang_ping
+    backstage.io/source-ref: "https://github.com/sciriellipmp/golang_ping"
+    backstage.io/techdocs-ref: url:https://github.com/sciriellipmp/golang_ping
+    backstage.io/github-actions-id: https://github.com/sciriellipmp/golang_ping
+spec:
+  type: service
+  lifecycle: experimental
+  owner: scirielli
